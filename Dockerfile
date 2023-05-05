@@ -21,7 +21,7 @@ COPY . .
 RUN npm run build
 
 # Expose the port the app will run on
-EXPOSE 3000
+EXPOSE 3001
 
 ENTRYPOINT ["sh", "entrypoint.sh"]
 
